@@ -1,0 +1,46 @@
+\documentclass[a4paper,11pt,titlepage]{jarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{fancybox,ascmac}
+\usepackage{url}
+
+
+\title{知能情報実験I　:　第九回レポート}
+\author{175751C 宮城孝明}
+\date{平成30年6月12日}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\clearpage
+\section{実験目的}
+　本実験では,簡単な順序回路の設計および実験を行うことによって,フリップフロップ(FF)の特性を理解するとともに,カウンタの動作原理および簡単な順序回路の設計方について習得する。
+
+\section{実験結果}
+\begin{enumerate}
+  \item 実験(1) \par
+  \item 実験(2) \par
+  \item 実験(3) \par
+  \item 実験(4) \par
+\end{enumerate}
+
+\section{考察}
+\begin{enumerate}
+  \item 実験自体の考察について
+  \item その他の考察
+\end{enumerate}
+
+\section{調査課題}
+\begin{enumerate}
+  \item (a)\par
+  \item (b)\par
+\end{enumerate}
+
+\section{感想}
+
+\section{参考文献}
+\begin{thebibliography}{99}
+\end{thebibliography}
+
+\end{document}
