@@ -1,0 +1,17 @@
+#2018/04.experiment_task4_1.gp
+set term png enhanced size 640,480
+set xlabel "x" font "Helvetica,20"
+set ylabel "y" font "Helvetica,20"
+set title "Tsak4-1" font "Helvetica,30"
+set size ratio -1
+set xrange [-1:1]
+set yrange [-1:1]
+unset key
+unset border
+unset xtics
+unset ytics
+set angles degrees
+set output "experiment_task4_1.png"
+plot "data.txt" using (0):(0):(1):2:3 with circles,\
+     "" using (0.7*cos(($2+$3)/2.0)):(0.7*sin(($2+$3)/2.0)):1 with lab  title "data"
+set term aqua

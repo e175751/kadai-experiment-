@@ -1,0 +1,13 @@
+#2018/04.experiment_task3_2.gp                                                  
+set term png enhanced size 640,480                                              
+set xlabel "x" font "Helvetica,20"                                              
+set ylabel "y" font "Helvetica,20"
+
+set title "Task3-2" font "Helvetica,30"
+                                              
+set grid lw 2                                                                   
+set key box                                                                     
+set output "experiment_task3_2.png"                                             
+plot "data.txt" w l lt 7 lw 4 title "data"                                 
+
+set term aqua 
