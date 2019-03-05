@@ -1,0 +1,10 @@
+#2018/04.experiment_task2_3.gp                                                  
+set term png enhanced size 640, 480                                             
+set output "task2-3.png"                                                        
+set title "Task2_3" font "Helvetica,30"
+                                         
+set xlabel "x" font "Helvetica,30"                                              
+set ylabel "y" font "Helvetica,30"                                              
+set xrange[-2*pi:2*pi]                                                                                                                                  
+plot sin(x),sin(x)+sin(3*x)/3+sin(5*x)/5+sin(7*x)/7+sin(9*x)/9+sin(11*x)/11                                     
+set term aqua 

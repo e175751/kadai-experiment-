@@ -1,0 +1,10 @@
+#2018/04.experiment_task2_1.gp
+set term png enhanced size 640, 480
+set output "task2_1.png"
+set title "Task2-1" font "Helvetica,30" 
+set xlabel "x" font "Helvetica,30"
+set ylabel "y" font "Helvetica,30"
+set xrange[-6:4]
+set xtics -6,2 
+plot -x**3-3*x**2+10*x
+set term aqua
