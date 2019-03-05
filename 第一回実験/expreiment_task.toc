@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}とgnuplotの説明}{2}
+\contentsline {subsection}{\numberline {1.1}T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}について80から120文字で説明しなさい}{2}
+\contentsline {subsection}{\numberline {1.2}gnuplotについて80から120文字で説明しなさい}{2}
+\contentsline {section}{\numberline {2}関数入力グラフ作成}{2}
+\contentsline {section}{\numberline {3}様々なグラフ}{2}
+\contentsline {section}{\numberline {4}グラフの使い分け}{2}
+\contentsline {section}{\numberline {5}オプション課題}{2}
