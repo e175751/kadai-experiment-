@@ -1,0 +1,87 @@
+\documentclass[a4paper,11pt,titlepage]{jarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{fancybox,ascmac}
+
+\title{知能情報実験I　:　第七回レポート}
+\author{175751C 宮城孝明}
+\date{\today}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\clearpage
+\section{実験目的}
+ 現代社会に欠かすことのできないコンピュータは,大規模なディジタル回路として構成されている。本実験では,ディジタル回路の構成要素である基本ゲート回路と論理演算の基礎を習得することを目的としている。また本実験では,NAND(NOT,AND,OR,NOR,XOR)を構成することによって,汎用ロジックICおよびブレッドボード,直流電源などの基本的な使用法についても学ぶ。\par
+
+\section{実験概要}
+　今回の実験は,ディジタル回路の基本構造を理解するために,実際の回路作成を行った。まず始めに,NANDだけを用いてNOT,AND,OR,NOR,XOR回路を紙の上で回路図として表現した。回路作成する際に,全体の見取り図として,これを役立てた。そして,回路作成にあたり教授たちが前で基本的な説明や取り扱い際の諸注意をした。あらかじめ用意してもらった汎用ロジックとブレッドボード,直流電源を用いて,先ほどの回路を作成する作業に移る。そして,出力結果を確かめるために,LEDの灯が付くか付かないで確認をした。そのため,私たち学生でも自作の回路が適切かどうか判断できる。さらに,教授や院生,外部の人たちが学生の質問に回って答えたり,実際の動作を一緒に確認した。\par
+
+
+\section{実験結果}
+実験(1)\par
+ここは,NANDゲートを用いてNOT,AND,OR,NOR,XORゲートを再現する。\par
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=100mm]{sample4.png}
+  \label{sample1}\\
+  \caption{NANDゲートで示したNOT回路}
+\end{figure}
+\par
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=100mm]{sample5.png}
+  \label{sample2}\\
+  \caption{NANDゲートで示したAND回路}
+\end{figure}
+\par
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=100mm]{sample6.png}
+  \label{sample3}\\
+  \caption{NANDゲートで示したOR回路}
+\end{figure}
+\par
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=100mm]{sample7.png}
+  \label{sample4}\\
+  \caption{NANDゲートで示したNOR回路}
+\end{figure}
+\par
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=100mm]{sample8.png}
+  \label{sample5}\\
+  \caption{NANDゲートで示したXOR回路}
+\end{figure}
+\par
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=100mm]{sample9.png}
+  \label{sample6}\\
+  \caption{NORゲートで示したNOT回路}
+\end{figure}
+\par
+図1は,NOT回路は入力した数値の反対を出力する。そして,NAND回路は入力(0,0)の場合は1を出力,入力(1,1)の場合は0を出力する。そのため,一度入力を二つに分ける。こうして,入力に対してその反対を出力するNOT回路が完成する。\par
+この結果が正しいかどうか判断するため真理値表を用いる。\par
+
+
+
+\section{考察}
+
+
+\section{調査課題}
+
+
+\section{感想}
+ 今回の実験を通し,回路の複雑さを理解した。コンピュータには,多くの論理回路が使われており,今回私たちが作成したのはそれのほんの一部に過ぎないことを体感した。それにより,コンピュータ内部の論理回路の仕組みに非常に興味深く感じた。\par
+意見としては,教授や院生方々は常に生徒の作業状況を確認しておく必要にあると感じた。理由としては,私の隣に座ってた学生は最初の作業さえままならない状況だと思ったからである。手が止まり,周りを見渡すことしかできていません。そのため,周りの人たちよりも作業状況が悪く見えました。仮に,院生の方々がそれに気づき声かけをすれば,彼の理解も作業状況も上がっていたのだろうと思った。\par
+
+\section{参考文献・引用文献}
+
+
+
+
+\end{document}
